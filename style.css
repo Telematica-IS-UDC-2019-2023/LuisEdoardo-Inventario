@@ -1,0 +1,49 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+input{
+    background-color: white;
+    border-radius: 2px;
+    border: 0px;
+}
+button{
+    background-color: wheat;
+    border-radius: 4px;
+}
+.divInputs{
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    background-color: wheat; 
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.Button{
+    margin: 20px auto;
+    text-align: center;
+    background-color: navajowhite;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    border-radius: 5px;
+}
+.Outputs{
+    background-color:wheat;
+    border-radius: 5px;
+    width: 300px;
+    margin: 20px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+
+}
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
