@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inventario</title>
+</head>
+<body>
+    <h1>Pequeño inventario</h1>
+    <div class="divInputs">
+        <label for="producto">Nombre:</label>
+        <input type="text" id="producto">
+        <br>
+        <label for="codigoP">Código:</label>
+        <input type="number" id="codigoP">
+        <br>
+        <label for="descripcionP">Descripción:</label>
+        <input type="text" id="descripcionP">
+        <br>
+        <label for="cantidadP">Cantidad:</label>
+        <input type="number" id="cantidadP">
+        <br>
+        <label for="costoP">Costo:</label>
+        <input type="number" id="costoP">
+    </div>
+    <div class="Button">
+        <button id="AgregarP">Agregar</button>
+        <button id="BorrarP">Borrar</button>
+        <button id="BuscarP">Buscar</button>
+        <button id="ListarP">Listar productos</button>
+        <button id="ListarProductosI">Listar inverso</button>
+        <br>
+        <br>
+        <label for="agregarPosicion" style="color: black; font-size: 12px;">Agregar a posición:</label>
+        <input type="number" id="agregarPosicion">
+        <button id="btnAgregarPosicion" style="align-content: center;">Agregar</button>
+    </div>
+    <div class="Outputs">
+        <label id="resListaP"></label>
+        <ul id="listaP"></ul>
+        <label id="resProducto"></label>
+        <br>
+        <label id="resCodigoP"></label>
+        <br>
+        <label for="" id="resDescripcionP"></label>
+        <br>
+        <label id="resCantidadP"></label>
+        <br>
+        <label id="resCostoP"></label>
+        <br>
+        <label for="" id="" style="color: black;">Valor de mercancía: </label>
+        <label for="" id="resValorM" style="color: black;"></label>
+    </div>
+</body>
+<script src= "inventario.js"></script>
+</html>
